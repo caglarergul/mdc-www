@@ -1,0 +1,9 @@
+
+
+@import "@material/button/mdc-button";
+@import "@material/top-app-bar/mdc-top-app-bar";
+
+.foo-button {
+  @include mdc-button-ink-color(#ffffff);
+  @include mdc-states(teal);
+}
